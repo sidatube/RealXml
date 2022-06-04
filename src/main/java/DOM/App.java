@@ -1,3 +1,5 @@
+package DOM;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -51,7 +53,7 @@ class Article{
 
     @Override
     public String toString() {
-        return "Article{" +
+        return "DOM.Article{" +
                 "title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", link='" + link + '\'' +
